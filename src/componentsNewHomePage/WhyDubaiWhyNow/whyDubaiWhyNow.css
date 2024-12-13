@@ -1,0 +1,207 @@
+.whyDubaiWhyNowAll {
+  padding: 13.3333333333vw 0 0;
+}
+.whyDubaiWhyNowAll p.subTitle {
+  font-family: Inter;
+  font-size: 4.8vw;
+  font-weight: 500;
+  margin-bottom: 0vw;
+  text-align: center;
+  color: rgb(115, 80, 159);
+}
+.whyDubaiWhyNowAll .titleSection {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 1.6vw;
+}
+.whyDubaiWhyNowAll .titleSection h2 {
+  font-family: Inter;
+  font-size: 5.8666666667vw;
+  font-weight: 700;
+  line-height: normal;
+  color: rgb(76, 41, 181);
+  margin: 0 0 1.6vw 0;
+  text-align: center;
+}
+.whyDubaiWhyNowAll .titleSection img {
+  display: none;
+  width: auto;
+  height: 4.2666666667vw;
+}
+.whyDubaiWhyNowAll .cardItems {
+  width: 66.6666666667vw;
+  margin: 0 auto;
+  padding-top: 10.6666666667vw;
+}
+.whyDubaiWhyNowAll .cardItems .contenCard {
+  background: linear-gradient(to top left, rgba(137, 69, 236, 0.2), rgba(137, 69, 236, 0));
+  border-radius: 10.6666666667vw;
+  padding: 5.3333333333vw;
+  height: auto;
+  margin-bottom: 18.6666666667vw;
+  transition: all 0.3s ease-in-out;
+  border: 3px solid white;
+  cursor: pointer;
+}
+.whyDubaiWhyNowAll .cardItems .contenCard p {
+  font-family: Inter;
+  font-size: 4.2666666667vw;
+  font-weight: 400;
+  color: rgb(76, 41, 181);
+  text-align: center;
+  width: 53.3333333333vw;
+}
+.whyDubaiWhyNowAll .cardItems .contenCard .imageSectiom {
+  position: relative;
+  top: -11.7333333333vw;
+  margin-bottom: -6.9333333333vw;
+  width: 18.1333333333vw;
+  height: 18.1333333333vw;
+  border: 2px solid white;
+  border-radius: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(137, 69, 236);
+  transition: all 0.3s ease-in-out;
+}
+.whyDubaiWhyNowAll .cardItems .contenCard .imageSectiom:nth-child(3) {
+  margin-bottom: -5.3333333333vw;
+}
+.whyDubaiWhyNowAll .cardItems .contenCard .imageSectiom img {
+  width: 8.5333333333vw;
+  height: auto;
+}
+.whyDubaiWhyNowAll .cardItems .contenCard:hover {
+  background: white;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 80px rgba(137, 69, 236, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+.whyDubaiWhyNowAll .cardItems .contenCard:hover .imageSectiom {
+  background: rgb(255, 0, 121);
+  transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .whyDubaiWhyNowAll {
+    padding: 5.9952038369vw 0 0;
+  }
+  .whyDubaiWhyNowAll p.subTitle {
+    font-size: 2.3980815348vw;
+    margin-bottom: 0.7194244604vw;
+  }
+  .whyDubaiWhyNowAll .titleSection {
+    margin-bottom: 0.7194244604vw;
+    align-items: center;
+    gap: 12px;
+  }
+  .whyDubaiWhyNowAll .titleSection h2 {
+    font-size: 2.6378896882vw;
+    line-height: 5.035971223vw;
+    margin: 0;
+  }
+  .whyDubaiWhyNowAll .titleSection img {
+    display: block;
+    width: 4.3165467626vw;
+    height: auto;
+  }
+  .whyDubaiWhyNowAll .cardItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4.7961630695vw;
+    gap: 7.1942446043vw 5.9952038369vw;
+    margin-top: 7.1942446043vw;
+  }
+  .whyDubaiWhyNowAll .cardItems .contenCard {
+    border-radius: 4.7961630695vw;
+    padding: 2.3980815348vw;
+    height: auto;
+    margin-bottom: 0vw;
+    width: calc(50% - 30px);
+  }
+  .whyDubaiWhyNowAll .cardItems .contenCard p {
+    font-size: 1.9184652278vw;
+    width: 23.9808153477vw;
+  }
+  .whyDubaiWhyNowAll .cardItems .contenCard .imageSectiom {
+    top: -5.2757793765vw;
+    margin-bottom: -3.5971223022vw;
+    width: 8.1534772182vw;
+    height: 8.1534772182vw;
+    border-radius: 1.7985611511vw;
+  }
+  .whyDubaiWhyNowAll .cardItems .contenCard .imageSectiom img {
+    width: 3.8369304556vw;
+  }
+}
+@media (min-width: 1024px) {
+  .whyDubaiWhyNowAll {
+    padding: 5.2083333333vw 0 2.6041666667vw;
+  }
+  .whyDubaiWhyNowAll p.subTitle {
+    font-size: 1.0416666667vw;
+    margin-bottom: 0.625vw;
+    text-align: start;
+  }
+  .whyDubaiWhyNowAll .titleSection {
+    margin-bottom: 0.3125vw;
+    justify-content: center;
+    align-items: center;
+    justify-content: start;
+  }
+  .whyDubaiWhyNowAll .titleSection h2 {
+    font-size: 2.0833333333vw;
+    width: auto;
+    margin: 0;
+  }
+  .whyDubaiWhyNowAll .titleSection img {
+    display: block;
+    width: 2.0833333333vw;
+    height: auto;
+    margin-top: 0;
+  }
+  .whyDubaiWhyNowAll .cardItems {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    gap: 0.7291666667vw;
+    margin-bottom: 3.125vw;
+    padding-top: 6.25vw;
+  }
+  .whyDubaiWhyNowAll .cardItems .contenCard {
+    border-radius: 2.0833333333vw;
+    padding: 1.0416666667vw 2.0833333333vw;
+    margin-bottom: 0vw;
+    width: 22%;
+    height: 13.0208333333vw;
+    position: relative;
+  }
+  .whyDubaiWhyNowAll .cardItems .contenCard p {
+    font-size: 0.9375vw;
+    width: 10.4166666667vw;
+    margin: 0 auto 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .whyDubaiWhyNowAll .cardItems .contenCard .imageSectiom {
+    top: -3.75vw;
+    margin-bottom: -1.0416666667vw;
+    width: 4.2708333333vw;
+    height: 4.2708333333vw;
+    border-radius: 0.78125vw;
+  }
+  .whyDubaiWhyNowAll .cardItems .contenCard .imageSectiom img {
+    width: 2.1875vw;
+  }
+  .whyDubaiWhyNowAll .cardItems .contenCardMarginBottom {
+    margin: 0 !important;
+  }
+}

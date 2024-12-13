@@ -1,0 +1,275 @@
+.trustedDevelopersAll {
+  padding: 13.3333333333vw 0 0;
+}
+.trustedDevelopersAll p.subTitle {
+  font-family: Inter;
+  font-size: 4.8vw;
+  font-weight: 500;
+  margin-bottom: 0vw;
+  text-align: center;
+  color: rgb(115, 80, 159);
+}
+.trustedDevelopersAll .titleSection {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 1.6vw;
+}
+.trustedDevelopersAll .titleSection h2 {
+  font-family: Inter;
+  font-size: 5.8666666667vw;
+  font-weight: 700;
+  line-height: normal;
+  color: rgb(76, 41, 181);
+  margin: 0 0 1.6vw 0;
+  text-align: center;
+}
+.trustedDevelopersAll .titleSection img {
+  display: none;
+  width: auto;
+  height: 4.2666666667vw;
+}
+.trustedDevelopersAll .cardItems {
+  margin-top: 10.6666666667vw;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2vw;
+}
+.trustedDevelopersAll .cardItems .contentBox {
+  width: 100%;
+  background-color: rgba(137, 69, 236, 0.1);
+  border-radius: 4.2666666667vw;
+  padding: 5.3333333333vw 3.7333333333vw;
+  transition: all 0.3s ease-in-out;
+  text-align: left;
+  border: 3px solid white;
+  cursor: pointer;
+  margin: 0 auto;
+}
+.trustedDevelopersAll .cardItems .contentBox .imageSectiom {
+  display: none;
+}
+.trustedDevelopersAll .cardItems .contentBox h2 {
+  font-family: Inter;
+  font-size: 3.7333333333vw;
+  font-weight: 800;
+  line-height: 4.5333333333vw;
+  color: rgb(76, 41, 181);
+  margin: 1.6vw 0;
+}
+.trustedDevelopersAll .cardItems .contentBox p {
+  font-family: Inter;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  line-height: 4.5333333333vw;
+  color: rgb(76, 41, 181);
+  width: 78.1333333333vw;
+  margin: 0;
+}
+.trustedDevelopersAll .cardItems .contentBox:hover {
+  background: white;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 80px rgba(137, 69, 236, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+.trustedDevelopersAll .cardItems .contentBox:hover .imageSectiom {
+  background: rgb(255, 0, 121);
+  transition: all 0.3s ease-in-out;
+}
+.trustedDevelopersAll .contentBoxAll {
+  margin-bottom: 13.3333333333vw;
+}
+.trustedDevelopersAll .contentBoxAll .fullImage {
+  width: auto;
+  height: auto;
+  margin: 13.3333333333vw auto 0;
+}
+.trustedDevelopersAll .contentBoxAll .fullImage li {
+  font-family: Inter;
+  font-size: 3.7333333333vw;
+  font-weight: 500;
+  color: rgb(115, 80, 159);
+  text-align: center;
+  margin-bottom: 5.3333333333vw;
+}
+.trustedDevelopersAll .contentBoxAll .fullImage img {
+  width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .trustedDevelopersAll {
+    padding: 5.9952038369vw 0 0;
+  }
+  .trustedDevelopersAll p.subTitle {
+    font-size: 2.3980815348vw;
+    margin-bottom: 0.7194244604vw;
+  }
+  .trustedDevelopersAll .titleSection {
+    margin-bottom: 0.7194244604vw;
+    align-items: center;
+    gap: 12px;
+  }
+  .trustedDevelopersAll .titleSection h2 {
+    font-size: 2.6378896882vw;
+    line-height: 5.035971223vw;
+    margin: 1.1990407674vw 0 2.8776978417vw 0;
+  }
+  .trustedDevelopersAll .titleSection img {
+    display: block;
+    width: 4.3165467626vw;
+    height: auto;
+  }
+  .trustedDevelopersAll .contentBoxAll {
+    margin-bottom: 5.9952038369vw;
+  }
+  .trustedDevelopersAll .contentBoxAll .cardItems {
+    margin-top: 4.7961630695vw;
+    gap: 1.4388489209vw;
+  }
+  .trustedDevelopersAll .contentBoxAll .cardItems .contentBox {
+    width: 70.0239808153vw;
+    border-radius: 1.7985611511vw;
+    padding: 2.3980815348vw 2.3980815348vw;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 2.3980815348vw;
+    margin: 0 auto;
+  }
+  .trustedDevelopersAll .contentBoxAll .cardItems .contentBox .imageSectiom {
+    display: block;
+    width: 8.1534772182vw;
+    height: 8.1534772182vw;
+    padding: 1.1990407674vw;
+    background: rgb(137, 69, 236);
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .trustedDevelopersAll .contentBoxAll .cardItems .contentBox .imageSectiom img {
+    width: 3.8369304556vw;
+  }
+  .trustedDevelopersAll .contentBoxAll .cardItems .contentBox:hover .imageSectiom {
+    background: rgb(255, 0, 121);
+    transition: all 0.3s ease-in-out;
+  }
+  .trustedDevelopersAll .contentBoxAll .cardItems .contentBox h2 {
+    font-size: 2.1582733813vw;
+    line-height: 2.6378896882vw;
+    margin: 1.4388489209vw 0;
+  }
+  .trustedDevelopersAll .contentBoxAll .cardItems .contentBox p {
+    font-size: 2.0383693046vw;
+    line-height: 2.3980815348vw;
+    width: 55.51558753vw;
+  }
+  .trustedDevelopersAll .contentBoxAll .fullImage {
+    width: 100%;
+    margin: 5.9952038369vw auto 0;
+    text-align: center;
+  }
+  .trustedDevelopersAll .contentBoxAll .fullImage li {
+    font-size: 2.1582733813vw;
+    margin-bottom: 2.3980815348vw;
+  }
+  .trustedDevelopersAll .contentBoxAll .fullImage img {
+    width: 71.9424460432vw;
+  }
+}
+@media (min-width: 1024px) {
+  .trustedDevelopersAll {
+    padding: 2.6041666667vw 0;
+  }
+  .trustedDevelopersAll p.subTitle {
+    font-size: 1.0416666667vw;
+    margin-bottom: 0.625vw;
+    text-align: start;
+  }
+  .trustedDevelopersAll .titleSection {
+    margin-bottom: 0.3125vw;
+    justify-content: center;
+    align-items: start;
+    justify-content: start;
+  }
+  .trustedDevelopersAll .titleSection h2 {
+    font-size: 1.7708333333vw;
+    width: auto;
+    margin: 0;
+  }
+  .trustedDevelopersAll .titleSection img {
+    display: block;
+    width: 2.0833333333vw;
+    height: auto;
+    margin-top: 0;
+  }
+  .trustedDevelopersAll .contentBoxAll {
+    margin-bottom: 4.1666666667vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4.1666666667vw;
+    gap: 2.0833333333vw;
+  }
+  .trustedDevelopersAll .contentBoxAll .cardItems {
+    width: 40%;
+    gap: 1.3541666667vw;
+    margin-top: 0vw;
+  }
+  .trustedDevelopersAll .contentBoxAll .cardItems .contentBox {
+    width: auto;
+    border-radius: 0.78125vw;
+    padding: 1.0416666667vw 1.0416666667vw;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 1.0416666667vw;
+    margin: 0;
+  }
+  .trustedDevelopersAll .contentBoxAll .cardItems .contentBox .imageSectiom {
+    display: block;
+    width: 4.0625vw;
+    height: 4.0625vw;
+    padding: 0.5208333333vw;
+    background: rgb(137, 69, 236);
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .trustedDevelopersAll .contentBoxAll .cardItems .contentBox .imageSectiom img {
+    width: 2.1875vw;
+  }
+  .trustedDevelopersAll .contentBoxAll .cardItems .contentBox:hover .imageSectiom {
+    background: rgb(255, 0, 121);
+    transition: all 0.3s ease-in-out;
+  }
+  .trustedDevelopersAll .contentBoxAll .cardItems .contentBox h2 {
+    font-size: 1.0416666667vw;
+    line-height: 1.1458333333vw;
+    margin: 0.625vw 0;
+  }
+  .trustedDevelopersAll .contentBoxAll .cardItems .contentBox p {
+    font-size: 1.0416666667vw;
+    line-height: 1.0416666667vw;
+    width: 22.9166666667vw;
+    line-height: 1.5625vw;
+  }
+  .trustedDevelopersAll .contentBoxAll .fullImage {
+    width: 60%;
+    margin: 0;
+    text-align: end;
+  }
+  .trustedDevelopersAll .contentBoxAll .fullImage li {
+    text-align: left;
+    font-size: 1.1458333333vw;
+    margin-top: 1.0416666667vw;
+    margin-bottom: 1.0416666667vw;
+  }
+  .trustedDevelopersAll .contentBoxAll .fullImage img {
+    width: 100%;
+  }
+}
