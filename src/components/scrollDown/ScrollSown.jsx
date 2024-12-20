@@ -8,7 +8,7 @@ import scrollDownImage from "../../assets/scrollDownImage.png";
 const ScrollSown = () => {
   const handleScroll = (e) => {
     e.preventDefault();
-    const footerElement = document.getElementById("footerID");
+    const footerElement = document.getElementById("ourPartnersSection");
     if (footerElement) {
       footerElement.scrollIntoView({ behavior: "smooth" });
     }
@@ -16,7 +16,7 @@ const ScrollSown = () => {
 
   return (
     <div className="scrollDownSection">
-      <a href="#footerID" className="clickDown" onClick={handleScroll}>
+      <a href="#ourPartnersSection" className="clickDown" onClick={handleScroll}>
         <p>Scroll Down</p>
         <Image src={scrollDownImage} alt="scrool Down Image" />
       </a>

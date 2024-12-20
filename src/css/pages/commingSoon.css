@@ -97,7 +97,7 @@
   height: 10.9333333333vw;
   background: white;
   text-align: center;
-  border-radius: 10.6666666667vw;
+  border-radius: 3.2vw;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   display: flex;
@@ -143,14 +143,14 @@
   margin: 0;
 }
 .commingSoonPageBox .contentTex .btnLinkBuyAndSell a.contentBox:hover {
-  background: white;
+  background: rgb(154, 97, 238);
   transition: all 0.3s ease-in-out;
   box-shadow: 0 0 80px rgba(137, 69, 236, 0.2);
   border-color: rgb(154, 97, 238);
   transition: all 0.3s ease-in-out;
 }
 .commingSoonPageBox .contentTex .btnLinkBuyAndSell a.contentBox:hover h2 {
-  color: rgb(76, 41, 181);
+  color: white;
   transition: all 0.3s ease-in-out;
 }
 .commingSoonPageBox .contentTex h3 {
@@ -257,7 +257,7 @@
   .commingSoonPageBox .contentTex .btnLinkBuyAndSell a.contentBox {
     width: 22.1822541966vw;
     height: 6.4748201439vw;
-    border-radius: 4.7961630695vw;
+    border-radius: 1.4388489209vw;
     margin-bottom: 2.3980815348vw;
   }
   .commingSoonPageBox .contentTex .btnLinkBuyAndSell a.contentBox .imageSectiom {
@@ -358,7 +358,7 @@
   .commingSoonPageBox .contentTex .btnLinkBuyAndSell a.contentBox {
     width: 9.6354166667vw;
     height: 2.8125vw;
-    border-radius: 2.0833333333vw;
+    border-radius: 0.625vw;
   }
   .commingSoonPageBox .contentTex .btnLinkBuyAndSell a.contentBox:first-child {
     margin-bottom: 0;

@@ -85,6 +85,10 @@
                 }
             }
 
+            &.contenCardMarginBottom {
+                margin: 0 !important;
+            }
+
             &:hover {
                 background: white;
                 transition: all 0.3s ease-in-out;
@@ -209,7 +213,6 @@
                 width: 22%;
                 height: c.vw1920(250);
                 position: relative;
- 
 
                 p {
                     font-size: c.vw1920(18);

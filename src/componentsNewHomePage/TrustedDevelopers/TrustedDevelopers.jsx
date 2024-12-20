@@ -26,7 +26,7 @@ const TrustedDevelopers = () => {
               <div className="imageSectiom">
                 <Image src={iconNumer1} alt="image label section" />
               </div>
-              <p>
+              <p className="contentDownImage">
                 We thoroughly vet every developer to ensure they meet the
                 highest standards of reliability.
               </p>
@@ -36,7 +36,7 @@ const TrustedDevelopers = () => {
               <div className="imageSectiom">
                 <Image src={iconNumer2} alt="image label section" />
               </div>
-              <p>
+              <p className="contentDownImage">
                 Each project listed is carefully reviewed for quality and
                 trustworthiness.
               </p>
@@ -46,7 +46,7 @@ const TrustedDevelopers = () => {
               <div className="imageSectiom">
                 <Image src={iconNumer3} alt="image label section" />
               </div>
-              <p>
+              <p className="contentDownImage">
                 All listings are officially registered with the Real Estate
                 Regulatory Authority (RERA).
               </p>
@@ -56,7 +56,7 @@ const TrustedDevelopers = () => {
               <div className="imageSectiom">
                 <Image src={iconNumer4} alt="image label section" />
               </div>
-              <p>
+              <p className="contentDownImage">
                 Every project adheres to Dubai's stringent legal and regulatory
                 standards.
               </p>

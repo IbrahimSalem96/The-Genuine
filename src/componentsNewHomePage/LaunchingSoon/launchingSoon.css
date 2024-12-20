@@ -1,5 +1,5 @@
 .launchingSoonll {
-  padding: 13.3333333333vw 0 0;
+  padding: 10.6666666667vw 0 0;
 }
 .launchingSoonll p.subTitle {
   font-family: Inter;
@@ -99,15 +99,15 @@
   .launchingSoonll .titleSection h2 {
     font-size: 2.6378896882vw;
     line-height: 5.035971223vw;
-    margin: 1.1990407674vw 0 2.8776978417vw 0;
+    margin: 0;
   }
   .launchingSoonll .titleSection img {
     display: block;
-    width: 4.3165467626vw;
+    width: 6.7146282974vw;
     height: auto;
   }
   .launchingSoonll .descSection {
-    margin-bottom: 3.5971223022vw;
+    margin: 2.3980815348vw 0 3.5971223022vw;
   }
   .launchingSoonll .descSection p {
     width: auto;
@@ -148,6 +148,7 @@
     justify-content: center;
     align-items: center;
     justify-content: start;
+    gap: 0;
   }
   .launchingSoonll .titleSection h2 {
     font-size: 2.0833333333vw;
@@ -156,7 +157,7 @@
   }
   .launchingSoonll .titleSection img {
     display: block;
-    width: 2.0833333333vw;
+    width: 3.6458333333vw;
     height: auto;
     margin-top: 0;
   }

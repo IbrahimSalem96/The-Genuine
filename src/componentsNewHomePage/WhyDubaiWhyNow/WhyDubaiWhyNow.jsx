@@ -13,7 +13,7 @@ const WhyDubaiWhyNow = () => {
   return (
     <Container>
       <div className="whyDubaiWhyNowAll">
-        <p className="subTitle">Why Now ?</p>
+        {/* <p className="subTitle">Why Now ?</p> */}
 
         <div className="titleSection">
           <h2>Why Dubai? Why Now?</h2>

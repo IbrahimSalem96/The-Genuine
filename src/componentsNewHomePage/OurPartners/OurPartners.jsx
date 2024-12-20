@@ -4,7 +4,7 @@ import { Container, Image } from "react-bootstrap";
 import ourPartnersImage1 from "../../assets/OurPartners/logo1.svg";
 import ourPartnersImage2 from "../../assets/OurPartners/logo2.svg";
 import ourPartnersImage3 from "../../assets/OurPartners/logo3.svg";
-import ourPartnersImage4 from "../../assets/OurPartners/logo4.svg";
+import ourPartnersImage4 from "../../assets/OurPartners/logo4.png";
 import ourPartnersImage5 from "../../assets/OurPartners/logo5.svg";
 import ourPartnersImage6 from "../../assets/OurPartners/logo6.svg";
 import ourPartnersImage7 from "../../assets/OurPartners/logo7.svg";
@@ -61,8 +61,7 @@ const partnersImages = [
 
 const OurPartners = () => {
   return (
-    <Container>
-      <div className="ourPartnersSection">
+      <div className="ourPartnersSection" id="ourPartnersSection">
         <div className="titleSection">
           <h2>
             Our <span>Partners</span>
@@ -75,31 +74,6 @@ const OurPartners = () => {
           ))}
         </div>
       </div>
-
-      <div className="ourPartnersSection">
-        <div className="titleSection">
-          <h2>
-            Our <span>Partners</span>
-          </h2>
-        </div>
-
-        <div className="boxContetSlider">
-          <div className="tickerTrack">
-            {partnersImages.map((partner, index) => (
-              <div key={index} className="tickerItem">
-                <img src={partner.src} alt={partner.alt} />
-              </div>
-            ))}
-
-            {partnersImages.map((partner, index) => (
-              <div key={`duplicate-${index}`} className="tickerItem">
-                <img src={partner.src} alt={partner.alt} />
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </Container>
   );
 };
 

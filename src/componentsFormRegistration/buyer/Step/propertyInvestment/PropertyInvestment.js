@@ -54,6 +54,20 @@ function PropertyInvestment({
   const [showErrors, setShowErrors] = useState(false);
   const [activeNextStep, setActiveNextStep] = useState(false);
 
+  // Format number with commas
+  const formatWithCommas = (value) => {
+    return value.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  };
+
+  // Handle budget input
+  const handleBudgetInput = (e, setter) => {
+    let value = e.target.value.replace(/[^\d]/g, ""); // Allow only digits
+    if (value.length > 12) {
+      value = value.slice(0, 12); // Limit to 12 digits
+    }
+    setter(value);
+  };
+
   // Check if all required fields are filled to activate the Next button
   useEffect(() => {
     if (
@@ -176,16 +190,11 @@ function PropertyInvestment({
           <label>Estimated investment amount (Budget Range) ?</label>
           <div className="boxSpan">
             <input
-              type="number"
-              value={estimatedBudgetFromSave}
-              onChange={(e) => setEstimatedBudgetFromSave(e.target.value)}
+              type="text"
+              value={formatWithCommas(estimatedBudgetFromSave)}
+              onChange={(e) => handleBudgetInput(e, setEstimatedBudgetFromSave)}
               placeholder="From"
               inputMode="numeric"
-              onInput={(e) => {
-                if (e.target.value.length > 14) {
-                  e.target.value = e.target.value.slice(0, 14);
-                }
-              }}
             />
             <span>AED</span>
           </div>
@@ -197,16 +206,11 @@ function PropertyInvestment({
         <div className="inputSection">
           <div className="boxSpan">
             <input
-              type="number"
-              value={estimatedBudgetToSave}
-              onChange={(e) => setEstimatedBudgetToSave(e.target.value)}
+              type="text"
+              value={formatWithCommas(estimatedBudgetToSave)}
+              onChange={(e) => handleBudgetInput(e, setEstimatedBudgetToSave)}
               placeholder="To"
               inputMode="numeric"
-              onInput={(e) => {
-                if (e.target.value.length > 14) {
-                  e.target.value = e.target.value.slice(0, 14);
-                }
-              }}
             />
             <span>AED</span>
           </div>

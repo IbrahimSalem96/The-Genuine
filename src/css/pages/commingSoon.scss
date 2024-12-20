@@ -118,7 +118,7 @@
                     // background-color: rgba(154, 97, 238, 1);
                     background: white;
                     text-align: center;
-                    border-radius: c.vw375(40);
+                    border-radius: c.vw375(12);
                     // padding: c.vw375(20) c.vw375(10);
                     transition: all 0.3s ease-in-out;
                     // border: 2px solid rgba(255, 255, 255, 0.15);
@@ -173,14 +173,14 @@
                     }
 
                     &:hover {
-                        background: white;
+                        background: rgba(154, 97, 238, 1);
                         transition: all 0.3s ease-in-out;
                         box-shadow: 0 0 80px rgba(137, 69, 236, 0.2);
                         border-color: rgba(154, 97, 238, 1);
                         transition: all 0.3s ease-in-out;
 
                         h2{
-                            color: rgba(76, 41, 181, 1);
+                            color: white;
                             transition: all 0.3s ease-in-out;
                         }
 
@@ -321,7 +321,7 @@
                     &.contentBox {
                         width: c.vw834(185);
                         height: c.vw834(54);
-                        border-radius: c.vw834(40);
+                        border-radius: c.vw834(12);
                         // padding: c.vw834(16) c.vw834(10);
                         margin-bottom: c.vw834(20);
 
@@ -449,7 +449,7 @@
                     &.contentBox {
                         width: c.vw1920(185);
                         height: c.vw1920(54);
-                        border-radius: c.vw1920(40);
+                        border-radius: c.vw1920(12);
                        // padding: c.vw1920(26) c.vw1920(18);
                         // justify-content: center;
 

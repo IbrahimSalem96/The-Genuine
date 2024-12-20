@@ -1,12 +1,12 @@
 .footer {
-  background: linear-gradient(rgba(76, 41, 181, 0.79), rgba(76, 41, 181, 0.79)), url("../../assets/footerImage.png");
+  background-image: url("../../assets/footerImage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 16vw 0;
 }
 .footer .logoSection {
   width: 96vw;
-  margin: 0 auto 20vw;
+  margin: 0 auto 13.3333333333vw;
   text-align: center;
 }
 .footer .logoSection .logoFooter {
@@ -97,6 +97,13 @@
   width: 4.8vw;
   height: auto;
 }
+.footer .LinkSite .contentBox.contentBoxContentPhones ul li:nth-child(2) {
+  gap: 1.6vw;
+}
+.footer .LinkSite .contentBox.contentBoxContentPhones ul li:nth-child(2) img {
+  width: 8vw;
+  margin-left: -1.6vw;
+}
 .footer .LinkSiteDeskTop {
   display: none;
 }
@@ -181,6 +188,13 @@
   .footer .LinkSite .contentBox.contentBoxContentPhones ul li img {
     width: 2.1582733813vw;
   }
+  .footer .LinkSite .contentBox.contentBoxContentPhones ul li:nth-child(2) {
+    gap: 0.7194244604vw;
+  }
+  .footer .LinkSite .contentBox.contentBoxContentPhones ul li:nth-child(2) img {
+    width: 3.5971223022vw;
+    margin-left: -0.7194244604vw;
+  }
   .footer .footerSocialMedia {
     width: 41.3669064748vw;
   }
@@ -198,7 +212,7 @@
 }
 @media (min-width: 1024px) {
   .footer {
-    padding: 8.3333333333vw 0 2.0833333333vw;
+    padding: 8.3333333333vw 0 0vw;
   }
   .footer .FlexSection {
     display: flex;
@@ -210,17 +224,20 @@
     width: auto;
     text-align: center;
   }
+  .footer .logoSection.logoSectionMobile {
+    display: none;
+  }
   .footer .logoSection .logoFooter {
     width: 7.8125vw;
   }
   .footer .logoSection p {
-    margin: 1.5625vw 0;
+    margin: 1.5625vw auto;
     font-size: 0.8333333333vw;
     width: 10.9895833333vw;
     line-height: 1.4583333333vw;
   }
   .footer .logoSection .formEmail a {
-    width: 100%;
+    width: 22%;
     height: 2.5vw;
     font-size: 1.0416666667vw;
     border-radius: 0.625vw;
@@ -241,7 +258,16 @@
   }
   .footer .LinkSite .contentBox {
     margin-bottom: 1.1458333333vw;
-    width: 33.3333333333%;
+  }
+  .footer .LinkSite .contentBox:nth-child(1) {
+    width: 15%;
+  }
+  .footer .LinkSite .contentBox:nth-child(2) {
+    width: 50%;
+    margin-left: -1.0416666667vw;
+  }
+  .footer .LinkSite .contentBox:nth-child(3) {
+    width: 15%;
   }
   .footer .LinkSite .contentBox h5 {
     font-size: 1.3020833333vw;
@@ -255,10 +281,34 @@
   }
   .footer .LinkSite .contentBox ul li p {
     font-size: 1.0416666667vw;
-    width: 17.7083333333vw;
+    width: auto;
   }
   .footer .LinkSite .contentBox ul li a {
     font-size: 1.0416666667vw;
+  }
+  .footer .LinkSite .contentBox.contentBoxContentPhonesDeskTop ul li {
+    display: flex;
+    align-items: center;
+  }
+  .footer .LinkSite .contentBox.contentBoxContentPhonesDeskTop ul li img {
+    width: 1.25vw;
+  }
+  .footer .LinkSite .contentBox.contentBoxContentPhonesDeskTop ul li p {
+    margin: 0;
+  }
+  .footer .LinkSite .contentBox.contentBoxContentPhonesDeskTop ul li a {
+    gap: 0.625vw;
+  }
+  .footer .LinkSite .contentBox.contentBoxContentPhonesDeskTop ul li:nth-child(2) {
+    align-items: center;
+    gap: 0.3125vw;
+  }
+  .footer .LinkSite .contentBox.contentBoxContentPhonesDeskTop ul li:nth-child(2) img {
+    width: 2.0833333333vw;
+    margin-left: -0.5208333333vw;
+  }
+  .footer .LinkSite .contentBox.contentBoxContentPhonesDeskTop ul li:nth-child(3) a {
+    gap: 0.7291666667vw;
   }
   .footer .LinkSiteMobile {
     display: none;
@@ -271,6 +321,7 @@
   .footer .LinkSiteDeskTop .sectionTop {
     display: flex;
     justify-content: start;
+    justify-content: space-between;
     width: 100%;
   }
   .footer .LinkSiteDeskTop .contentBoxDeskTop {
@@ -316,14 +367,31 @@
   .footer .LinkSiteDeskTop .contentBoxDeskTop.contentBoxContentPhones ul li p {
     margin: 0;
   }
+  .footer .LinkSiteDeskTop .contentBoxDeskTop.contentBoxContentPhones ul li:nth-child(2) {
+    align-items: center;
+    gap: 0.3125vw;
+  }
+  .footer .LinkSiteDeskTop .contentBoxDeskTop.contentBoxContentPhones ul li:nth-child(2) img {
+    width: 1.875vw;
+    margin-left: -0.3125vw;
+  }
   .footer .footerSocialMedia {
     width: 95%;
     display: flex;
     justify-content: space-between;
     margin: 0;
   }
+  .footer .footerSocialMedia.footerSocialMediaNewStyle {
+    width: 100%;
+    border-top: 1px solid white;
+    margin-top: 2.0833333333vw;
+    padding: 1.25vw 0 1.0416666667vw;
+  }
   .footer .footerSocialMedia ul {
+    width: 11.4583333333vw;
     gap: 1.5625vw;
+    justify-content: start;
+    margin-top: 1.0416666667vw;
   }
   .footer .footerSocialMedia ul img {
     width: 1.4583333333vw;
@@ -332,5 +400,13 @@
   .footer .footerSocialMedia p.sectionCopyright {
     font-size: 0.9375vw;
     margin: 0 0 0.3125vw 0;
+    color: white;
+    text-align: left;
+  }
+  .footer .footerSocialMedia p.sectionCopyright:nth-child(1) {
+    width: 48%;
+  }
+  .footer .footerSocialMedia p.sectionCopyright:nth-child(2) {
+    width: 60%;
   }
 }

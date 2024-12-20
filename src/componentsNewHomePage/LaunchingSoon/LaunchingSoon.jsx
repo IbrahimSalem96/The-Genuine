@@ -3,7 +3,7 @@ import { Image } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 
 // Image
-import listPointers from "../../assets/shape.svg";
+import rocketImage from "../../assets/rocket.svg";
 
 import { useState, useEffect } from "react";
 
@@ -45,11 +45,11 @@ const LaunchingSoon = () => {
     <>
       <Container>
         <div className="launchingSoonll">
-          <p className="subTitle">Coming Soon</p>
+          {/* <p className="subTitle">Coming Soon</p> */}
 
           <div className="titleSection">
             <h2>Launching Soon!</h2>
-            <Image src={listPointers} alt="image Fixed Selling Price" />
+            <Image src={rocketImage} alt="image Fixed Selling Price" />
           </div>
 
           <div className="descSection">

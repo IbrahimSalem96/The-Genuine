@@ -11,7 +11,7 @@ import iconNextStep from "../../../../assets/arrowIconNextStep.svg";
 const methodOptions = [
   { id: 0, value: "Email", label: "Email" },
   { id: 1, value: "Phone", label: "Phone" },
-  { id: 2, value: "Message on WhatsApp", label: "Message on WhatsApp" },
+  // { id: 2, value: "Message on WhatsApp", label: "Message on WhatsApp" },
   { id: 3, value: "SMS", label: "SMS" },
 ];
 
@@ -26,20 +26,21 @@ const daysOptions = [
 ];
 
 const timesOptions = [
-  { id: 0, value: "8-9", label: "8-9" },
-  { id: 1, value: "9-10", label: "9-10" },
-  { id: 2, value: "10-11", label: "10-11" },
-  { id: 3, value: "11-12", label: "11-12" },
-  { id: 4, value: "12-13", label: "12-13" },
-  { id: 5, value: "13-14", label: "13-14" },
-  { id: 6, value: "14-15", label: "14-15" },
-  { id: 7, value: "15-16", label: "15-16" },
-  { id: 8, value: "16-17", label: "16-17" },
-  { id: 9, value: "17-18", label: "17-18" },
-  { id: 10, value: "18-19", label: "18-19" },
-  { id: 11, value: "19-20", label: "19-20" },
-  { id: 12, value: "After 20", label: "After 20" },
+  { id: 0, value: "08:00 - 09:00", label: "08:00 - 09:00" },
+  { id: 1, value: "09:00 - 10:00", label: "09:00 - 10:00" },
+  { id: 2, value: "10:00 - 11:00", label: "10:00 - 11:00" },
+  { id: 3, value: "11:00 - 12:00", label: "11:00 - 12:00" },
+  { id: 4, value: "12:00 - 13:00", label: "12:00 - 13:00" },
+  { id: 5, value: "13:00 - 14:00", label: "13:00 - 14:00" },
+  { id: 6, value: "14:00 - 15:00", label: "14:00 - 15:00" },
+  { id: 7, value: "15:00 - 16:00", label: "15:00 - 16:00" },
+  { id: 8, value: "16:00 - 17:00", label: "16:00 - 17:00" },
+  { id: 9, value: "17:00 - 18:00", label: "17:00 - 18:00" },
+  { id: 10, value: "18:00 - 19:00", label: "18:00 - 19:00" },
+  { id: 11, value: "19:00 - 20:00", label: "19:00 - 20:00" },
+  { id: 12, value: "After 20:00", label: "After 20:00" },
 ];
+
 
 const customComponents = {
   ClearIndicator: () => null,

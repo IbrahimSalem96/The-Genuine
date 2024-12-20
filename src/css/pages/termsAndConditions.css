@@ -1,3 +1,6 @@
+.termsAndConditions {
+  padding: 0 0 10.6666666667vw;
+}
 .termsAndConditions .paddingTopBottom {
   padding-bottom: 10.6666666667vw;
 }
@@ -21,8 +24,31 @@
   margin-left: 5.8666666667vw;
   list-style-type: disc;
 }
+.termsAndConditions a.getGackToTheRegistrationPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(154, 97, 238);
+  border: 2px solid #ddd;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  font-family: Inter;
+  font-weight: 400;
+  margin-top: 13.3333333333vw;
+  padding: 0 5.3333333333vw;
+  height: 13.3333333333vw;
+  font-size: 4.2666666667vw;
+}
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .termsAndConditions {
+    padding: 0 0 4.7961630695vw;
+  }
   .termsAndConditions .paddingTopBottom {
     padding-bottom: 4.7961630695vw;
   }
@@ -41,8 +67,17 @@
   .termsAndConditions ul {
     margin-left: 2.6378896882vw;
   }
+  .termsAndConditions a.getGackToTheRegistrationPage {
+    margin-top: 5.9952038369vw;
+    padding: 0 2.3980815348vw;
+    height: 5.9952038369vw;
+    font-size: 1.9184652278vw;
+  }
 }
 @media (min-width: 1024px) {
+  .termsAndConditions {
+    padding: 0 0 2.0833333333vw;
+  }
   .termsAndConditions .paddingTopBottom {
     padding-top: 2.0833333333vw;
     padding-bottom: 2.0833333333vw;
@@ -61,5 +96,11 @@
   }
   .termsAndConditions ul {
     margin-left: 1.1458333333vw;
+  }
+  .termsAndConditions a.getGackToTheRegistrationPage {
+    margin-top: 2.6041666667vw;
+    padding: 0 1.5625vw;
+    height: 3.6458333333vw;
+    font-size: 1.1458333333vw;
   }
 }

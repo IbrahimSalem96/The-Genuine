@@ -41,7 +41,7 @@
         margin-top: c.vw375(40);
         display: flex;
         flex-direction: column;
-        gap: c.vw375(12);
+        gap: c.vw375(40);
 
         .contentBox {
             // width: c.vw375(325);
@@ -55,8 +55,30 @@
             cursor: pointer;
             margin: 0 auto;
 
+
             .imageSectiom {
-                display: none;
+                position: relative;
+                top: c.vw375(-50);
+                margin-bottom: c.vw375(-26);
+                width: c.vw375(58);
+                height: c.vw375(58);
+                border: 2px solid white;
+                border-radius: c.vw375(15);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: rgba(137, 69, 236, 1);
+                transition: all 0.3s ease-in-out;
+
+                img {
+                    width: c.vw375(28);
+                    height: auto;
+                }
+            }
+
+            
+            .contentDownImage{
+                margin-top: c.vw375(-40);
             }
 
             h2 {
@@ -100,6 +122,7 @@
             margin: c.vw375(50) auto 0;
 
             li{
+                list-style-type: none;
                 font-family: Inter;
                 font-size: c.vw375(14);
                 font-weight: 500;
@@ -158,6 +181,8 @@
                     gap: c.vw834(20);
                     margin: 0 auto;
                     .imageSectiom {
+                        top: unset;
+                        margin-bottom: unset;
                         display: block;
                         width: c.vw834(68);
                         height: c.vw834(68);
@@ -171,6 +196,10 @@
                         img {
                             width: c.vw834(32);
                         }
+                    }
+                    
+                    .contentDownImage{
+                        margin-top: unset;
                     }
 
                     &:hover {
@@ -267,6 +296,8 @@
                     gap: c.vw1920(20);
                     margin: 0;
                     .imageSectiom {
+                        top: unset;
+                        margin-bottom: unset;
                         display: block;
                         width: c.vw1920(78);
                         height: c.vw1920(78);
@@ -280,6 +311,10 @@
                         img {
                             width: c.vw1920(42);
                         }
+                    }
+
+                    .contentDownImage{
+                        margin-top: unset;
                     }
 
                     &:hover {
@@ -320,6 +355,7 @@
 
                 img {
                     width: 100%;
+                    height: c.vw1920(470);
                 }
             }
         }

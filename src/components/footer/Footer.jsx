@@ -3,14 +3,16 @@ import { Container, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 // Image
-import logo from "../../assets/LogoSite.svg";
-//import arrow from "../../assets/arrow.svg";
+// import logo from "../../assets/LogoSite.svg";
+import logo from "../../assets/newFooterLogo.svg";
+
+// import arrow from "../../assets/arrow.svg";
 
 import InstagramIcon from "../../assets/Instagram.svg";
 import LinkedinIcon from "../../assets/LinkedinFill.svg";
 import FacebookIcon from "../../assets/FacebookFooter.svg";
-import phoneIcon from "../../assets/landlineIcon.png";
-import whatsappIcon from "../../assets/whatsapp.png";
+import phoneIcon from "../../assets/landlineIcon.svg";
+import whatsappIcon from "../../assets/whatsapp.svg";
 import emailIcon from "../../assets/emailIcon.svg";
 
 const Footer = () => {
@@ -18,19 +20,19 @@ const Footer = () => {
     <div className="footer" id="footerID">
       <Container>
         <div className="FlexSection">
-          <div className="logoSection">
+          <div className="logoSection logoSectionMobile">
             <Image className="logoFooter" src={logo} alt="Logo footer" />
             <p>Register Now and Unlock Exclusive Benefits!</p>
 
             <div className="formEmail">
-              {/* <input type="text" placeholder="Your email address" />
+            {/*  <input type="text" placeholder="Your email address" />
               <span>
                 <Image className="logoFooter" src={arrow} alt="Logo footer" />
-              </span> */}
+              </span>  */}
 
               <Link to={"/joiningForm"}>Join Us</Link>
-            </div>
-          </div>
+            </div> 
+          </div> 
 
           <div className="LinkSite LinkSiteMobile">
             <div className="contentBox contentBoxContentPhones">
@@ -124,9 +126,91 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
+
+              <div className="contentBox">
+                <div className="logoSection">
+                  <Image className="logoFooter" src={logo} alt="Logo footer" />
+                  <p>Register Now and Unlock Exclusive Benefits!</p>
+
+                  <div className="formEmail">
+                    {/* <input type="text" placeholder="Your email address" />
+              <span>
+                <Image className="logoFooter" src={arrow} alt="Logo footer" />
+              </span> */}
+
+                    <Link to={"/joiningForm"}>Join Us</Link>
+                  </div>
+                </div>
+              </div>
+
+              <div className="contentBox contentBoxContentPhonesDeskTop">
+                <h5>contact us</h5>
+                <ul>
+                  <li>
+                    <Link to="https://wa.me/97142560500" target="_blank">
+                      <Image src={whatsappIcon} alt="whatsapp Icon" />
+                      <p>+971 425 60 500</p>
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Image src={phoneIcon} alt="Telephone Icon" />
+                    <p>+971 425 60 500</p>
+                  </li>
+
+                  <li>
+                    <Link to="mailto:info@thegenuine.ae">
+                      <Image src={emailIcon} alt="Email Icon" />
+                      <p>info@thegenuine.ae</p>
+                    </Link>
+                  </li>
+
+                  <li>
+                    <div className="footerSocialMedia">
+                      <ul className="linkIcone">
+                        <li>
+                          <Link
+                            to={"https://www.instagram.com/thegenuine.ae/"}
+                            target="_blank"
+                          >
+                            <Image
+                              src={InstagramIcon}
+                              alt="image instagram icon"
+                            />
+                          </Link>
+                        </li>
+
+                        <li>
+                          <Link
+                            to={"https://www.linkedin.com/company/thegenuine/"}
+                            target="_blank"
+                          >
+                            <Image
+                              src={LinkedinIcon}
+                              alt="image instagram icon"
+                            />
+                          </Link>
+                        </li>
+
+                        <li>
+                          <Link
+                            to={"https://www.facebook.com/TheGenuine.Ae"}
+                            target="_blank"
+                          >
+                            <Image
+                              src={FacebookIcon}
+                              alt="image instagram icon"
+                            />
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
 
-            <div className="contentBoxDeskTop contentBoxContentPhones">
+            {/* <div className="contentBoxDeskTop contentBoxContentPhones">
               <ul>
                 <li>
                   <Link to="https://wa.me/97142560500" target="_blank">
@@ -147,12 +231,12 @@ const Footer = () => {
                   </Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
 
-        <div className="footerSocialMedia">
-          <ul className="linkIcone">
+        <div className="footerSocialMedia footerSocialMediaNewStyle">
+          {/* <ul className="linkIcone">
             <li>
               <Link
                 to={"https://www.instagram.com/thegenuine.ae/"}
@@ -179,10 +263,11 @@ const Footer = () => {
                 <Image src={FacebookIcon} alt="image instagram icon" />
               </Link>
             </li>
-          </ul>
+          </ul> */}
 
           <p className="sectionCopyright">The Genuine Website.</p>
           <p className="sectionCopyright">Copyright © 2024 The Genuine.</p>
+          <p className="sectionCopyright"></p>
         </div>
       </Container>
     </div>

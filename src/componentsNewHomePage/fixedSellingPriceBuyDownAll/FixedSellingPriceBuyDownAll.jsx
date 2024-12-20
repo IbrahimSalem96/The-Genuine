@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 
 // Image
 import PriceComparisonIcon from "../../assets/PriceComparisonIcon.svg";
+import PriceComparisonIcon2 from "../../assets/RefineYourSearch.svg";
 
 const FixedSellingPriceBuyDownAll = () => {
   return (
@@ -27,7 +28,7 @@ const FixedSellingPriceBuyDownAll = () => {
 
           <div className="contentBox">
             <div className="imageSectiom">
-              <Image src={PriceComparisonIcon} alt="image label section" />
+              <Image src={PriceComparisonIcon2} alt="image label section" />
             </div>
             <h2>Refine Your Search</h2>
             <p>

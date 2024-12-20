@@ -2,7 +2,7 @@ import "./yourSmartSolutionfor.css";
 import { Container, Image } from "react-bootstrap";
 
 // Image
-import bgSectionLeft from "../../assets/NewHomePage/WelcometoTheGenuine.svg";
+import bgSectionLeft from "../../assets/NewHomePage/WelcometoTheGenuine.png";
 
 const YourSmartSolutionfor = () => {
   return (

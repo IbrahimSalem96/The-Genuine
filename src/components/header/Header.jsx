@@ -1,7 +1,7 @@
 import "./header.css";
 import { Container, Image } from "react-bootstrap";
 import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 // Image
 import LogoHeader from "../../assets/GN-LOGO.svg";
@@ -36,12 +36,12 @@ const Header = () => {
                 Home
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/buy">Buy</Link>
             </li>
             <li>
               <Link to="/sell">Sell</Link>
-            </li>
+            </li> */}
           </ul>
         </div>
 
@@ -60,7 +60,7 @@ const Header = () => {
             <li>
               <Link to="/">Home</Link>
             </li>
-
+{/* 
             <li>
               <NavLink
                 to="/buy"
@@ -77,7 +77,7 @@ const Header = () => {
               >
                 Sell
               </NavLink>
-            </li>
+            </li> */}
           </ul>
         </div>
       </header>

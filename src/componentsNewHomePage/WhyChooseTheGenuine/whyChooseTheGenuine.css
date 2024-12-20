@@ -1,5 +1,5 @@
 .whyChooseTheGenuineNewHomePage {
-  padding: 13.3333333333vw 0;
+  padding: 0vw 0 0;
 }
 .whyChooseTheGenuineNewHomePage p.subTitle {
   font-family: Inter;
@@ -48,7 +48,7 @@
   margin-top: 10.6666666667vw;
   display: flex;
   flex-direction: column;
-  gap: 6.9333333333vw;
+  gap: 10.6666666667vw;
 }
 .whyChooseTheGenuineNewHomePage .cardItems .contentBox {
   width: 86.6666666667vw;
@@ -62,7 +62,25 @@
   margin: 0 auto;
 }
 .whyChooseTheGenuineNewHomePage .cardItems .contentBox .imageSectiom {
-  display: none;
+  position: relative;
+  top: -13.3333333333vw;
+  margin-bottom: -6.9333333333vw;
+  width: 15.4666666667vw;
+  height: 15.4666666667vw;
+  border: 2px solid white;
+  border-radius: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(137, 69, 236);
+  transition: all 0.3s ease-in-out;
+}
+.whyChooseTheGenuineNewHomePage .cardItems .contentBox .imageSectiom img {
+  width: 5.3333333333vw;
+  height: auto;
+}
+.whyChooseTheGenuineNewHomePage .cardItems .contentBox .contentDownImage {
+  margin-top: -13.3333333333vw;
 }
 .whyChooseTheGenuineNewHomePage .cardItems .contentBox h2 {
   font-family: Inter;
@@ -97,10 +115,12 @@
 .whyChooseTheGenuineNewHomePage .contentBoxAll .fullImage {
   width: auto;
   height: auto;
+  text-align: center;
   margin: 6.9333333333vw auto 0;
 }
 .whyChooseTheGenuineNewHomePage .contentBoxAll .fullImage img {
-  width: 100%;
+  width: 77.3333333333vw;
+  height: auto;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -158,6 +178,8 @@
     width: 8.1534772182vw;
     height: 8.1534772182vw;
     padding: 1.1990407674vw;
+    top: unset;
+    margin-bottom: unset;
     background: rgb(137, 69, 236);
     border-radius: 15px;
     transition: all 0.3s ease-in-out;
@@ -167,6 +189,9 @@
   }
   .whyChooseTheGenuineNewHomePage .contentBoxAll .cardItems .contentBox .imageSectiom img {
     width: 3.8369304556vw;
+  }
+  .whyChooseTheGenuineNewHomePage .contentBoxAll .cardItems .contentBox .contentDownImage {
+    margin-top: unset;
   }
   .whyChooseTheGenuineNewHomePage .contentBoxAll .cardItems .contentBox:hover .imageSectiom {
     background: rgb(255, 0, 121);
@@ -245,7 +270,7 @@
   .whyChooseTheGenuineNewHomePage .contentBoxAll .cardItems .contentBox {
     width: 37.5vw;
     border-radius: 0.78125vw;
-    padding: 2.0833333333vw 1.0416666667vw;
+    padding: 1.3541666667vw 1.0416666667vw;
     margin: 0;
     display: flex;
     align-items: center;
@@ -253,9 +278,10 @@
     margin: 0;
   }
   .whyChooseTheGenuineNewHomePage .contentBoxAll .cardItems .contentBox .imageSectiom {
-    display: block;
-    width: 3.5416666667vw;
-    height: 3.5416666667vw;
+    top: unset;
+    margin-bottom: unset;
+    width: 4.0625vw;
+    height: 3.8541666667vw;
     padding: 0.5208333333vw;
     background: rgb(137, 69, 236);
     border-radius: 15px;
@@ -266,6 +292,9 @@
   }
   .whyChooseTheGenuineNewHomePage .contentBoxAll .cardItems .contentBox .imageSectiom img {
     width: 1.6666666667vw;
+  }
+  .whyChooseTheGenuineNewHomePage .contentBoxAll .cardItems .contentBox .contentDownImage {
+    margin-top: unset;
   }
   .whyChooseTheGenuineNewHomePage .contentBoxAll .cardItems .contentBox:hover .imageSectiom {
     background: rgb(255, 0, 121);
@@ -287,6 +316,7 @@
     text-align: end;
   }
   .whyChooseTheGenuineNewHomePage .contentBoxAll .fullImage img {
-    width: 86%;
+    width: 100%;
+    height: 24.4791666667vw;
   }
 }

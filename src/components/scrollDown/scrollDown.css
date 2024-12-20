@@ -11,14 +11,14 @@
 }
 .scrollDownSection p {
   font-family: Poppins;
-  font-size: 4.8vw;
+  font-size: 4.2666666667vw;
   font-weight: 500;
   line-height: 8.8vw;
   color: white;
   cursor: pointer;
 }
 .scrollDownSection img {
-  width: 13.3333333333vw;
+  width: 8vw;
   height: auto;
   cursor: pointer;
 }
@@ -32,7 +32,7 @@
     line-height: 3.9568345324vw;
   }
   .scrollDownSection img {
-    width: 8.5131894484vw;
+    width: 4.7961630695vw;
   }
 }
 @media (min-width: 1024px) {
@@ -44,6 +44,6 @@
     line-height: 1.71875vw;
   }
   .scrollDownSection img {
-    width: 3.125vw;
+    width: 2.0833333333vw;
   }
 }

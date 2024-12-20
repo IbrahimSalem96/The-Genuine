@@ -1,7 +1,7 @@
 @use "../../css/functions" as c;
 
 .launchingSoonll {
-    padding: c.vw375(50) 0 0;
+    padding: c.vw375(40) 0 0;
 
     p.subTitle {
         font-family: Inter;
@@ -116,18 +116,18 @@
             h2 {
                 font-size: c.vw834(22);
                 line-height: c.vw834(42);
-                margin: c.vw834(10) 0 c.vw834(24) 0;
+                margin: 0;
             }
 
             img {
                 display: block;
-                width: c.vw834(36);
+                width: c.vw834(56);
                 height: auto;
             }
         }
 
         .descSection {
-            margin-bottom: c.vw834(30);
+            margin: c.vw834(20) 0  c.vw834(30) ;
             p {
                 width: auto;
                 margin: 0 auto;
@@ -181,6 +181,8 @@
             justify-content: center;
             align-items: center;
             justify-content: start;
+            gap: 0;
+            
             h2 {
                 font-size: c.vw1920(40);
                 width: auto;
@@ -189,7 +191,7 @@
 
             img {
                 display: block;
-                width: c.vw1920(40);
+                width: c.vw1920(70);
                 height: auto;
                 margin-top: 0;
             }

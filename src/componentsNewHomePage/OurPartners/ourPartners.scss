@@ -11,14 +11,23 @@
         margin-bottom: c.vw375(6);
 
         h2 {
+            position: relative;
             font-family: Inter;
-            font-size: c.vw375(24);
+            font-size: c.vw375(30);
             font-weight: 700;
             line-height: normal;
             color: rgba(76, 41, 181, 1);
             margin: 0 0 c.vw375(6) 0;
             span {
                 color: rgba(255, 0, 121, 1);
+            }
+            &::before {
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 4px;
+                background-color: rgba(76, 41, 181, 1);
+                bottom: c.vw375(0);
             }
         }
 
@@ -34,51 +43,12 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        gap: c.vw375(20);
+        gap:c.vw375(6) c.vw375(20);
         padding-top: c.vw375(0);
 
         img {
-            width: calc(100% / 2 - c.vw375(20));
-            height: c.vw375(100);
-        }
-    }
-
-    .boxContetSlider {
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-        margin-top: c.vw375(20);
-
-        .tickerTrack {
-            display: flex;
-           animation: scrollTicker 100s linear infinite;
-        }
-
-        .tickerItem {
-            flex-shrink: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: c.vw375(40);
-            width: 50%;
+            width: calc(100% / 4 - c.vw375(20));
             height: c.vw375(60);
-            margin-right: c.vw375(20);
-        }
-
-        .tickerItem img {
-            max-width: 100%;
-            height: auto;
-            max-height: c.vw375(100);
-            object-fit: cover;
-        }
-    }
-
-    @keyframes scrollTicker {
-        from {
-            transform: translateX(0);
-        }
-        to {
-            transform: translateX(-2700%);
         }
     }
 }
@@ -94,6 +64,10 @@
                 font-size: c.vw834(35);
                 line-height: c.vw834(42);
                 margin: c.vw834(10) 0 c.vw834(24) 0;
+
+                &::before {
+                    bottom: c.vw834(-6);
+                }
             }
 
             img {
@@ -108,26 +82,12 @@
             padding-top: c.vw834(20);
 
             img {
-                width: calc(100% / 2 - c.vw834(20));
-                height: c.vw834(100);
+                width: calc(100% / 5 - c.vw834(20));
+                height: c.vw834(60);
 
                 &:nth-child(3) {
                     height: c.vw834(50);
                 }
-            }
-        }
-
-        .boxContetSlider {
-            margin-top: c.vw834(40);
-
-            .tickerItem {
-                gap: c.vw834(40);
-                height: c.vw834(60);
-                margin-right: c.vw834(20);
-            }
-
-            .tickerItem img {
-                max-height: c.vw834(100);
             }
         }
     }
@@ -143,14 +103,18 @@
             align-items: center;
             justify-content: center;
             h2 {
-                font-size: c.vw1920(47);
+                font-size: c.vw1920(50);
                 width: auto;
                 margin: 0;
+
+                &::before {
+                    bottom: c.vw1920(0);
+                }
             }
 
             img {
                 display: block;
-                width: c.vw1920(40);
+                width: c.vw1920(48);
                 height: auto;
                 margin-top: 0;
             }
@@ -164,29 +128,8 @@
             // margin: 0 auto;
 
             img {
-                max-width: c.vw1920(250);
-                height: auto;
-                max-height: c.vw1920(160);
-            }
-        }
-
-        .boxContetSlider {
-            margin-top: c.vw1920(50);
-
-            .tickerTrack {
-               animation: scrollTicker 300s linear infinite;
-            }
-
-            .tickerItem {
-                gap: c.vw1920(40);
-                height: auto;
-                width: c.vw1920(300);
-                margin-right: c.vw1920(20);
-            }
-
-            .tickerItem img {
-                width: auto;
-                max-height: c.vw1920(100);
+                max-width: c.vw1920(150);
+                height: c.vw1920(80);
             }
         }
     }

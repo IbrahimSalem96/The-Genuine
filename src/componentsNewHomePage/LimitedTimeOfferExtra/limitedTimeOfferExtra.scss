@@ -117,7 +117,7 @@
         }
     
         .mobileView {
-            padding: c.vw834(40) 0;
+            padding: c.vw834(40) 0 0;
 
             h2 {
                 font-size: c.vw834(35);
@@ -141,7 +141,7 @@
         }
 
         .mobileViewDownSection {
-            padding: c.vw834(40) 0;
+            padding: c.vw834(20) 0 c.vw834(40);
             h2 {
                 font-size: c.vw834(20);
                 width: c.vw834(513);

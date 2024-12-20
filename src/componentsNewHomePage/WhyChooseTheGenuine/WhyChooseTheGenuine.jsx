@@ -3,8 +3,8 @@ import { Image } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 
 // Image
-import moneyIcon from "../../assets/dolar.svg";
-import fixdPriceCity from "../../assets/NewHomePage/WhyChooseTheGenuine.png";
+// import moneyIcon from "../../assets/dolar.svg";
+import whyChooseTheGenuine from "../../assets/NewHomePage/WhyChooseTheGenuine.png";
 
 import MarketBasedPricing from "../../assets/MarketBasedPricing.svg";
 import PreNegotiated from "../../assets/PreNegotiated.svg";
@@ -18,7 +18,7 @@ const WhyChooseTheGenuine = () => {
 
         <div className="titleSection">
           <h2>Why Choose The Genuine</h2>
-          <Image src={moneyIcon} alt="image Fixed Selling Price" />
+          {/* <Image src={moneyIcon} alt="image Fixed Selling Price" /> */}
         </div>
 
         <div className="descSection">
@@ -35,7 +35,7 @@ const WhyChooseTheGenuine = () => {
               <div className="imageSectiom">
                 <Image src={MarketBasedPricing} alt="image label section" />
               </div>
-              <div>
+              <div className="contentDownImage">
                 <h2>Daily Updates</h2>
                 <p>
                   Access real-time availability of properties, refreshed every
@@ -48,7 +48,7 @@ const WhyChooseTheGenuine = () => {
               <div className="imageSectiom">
                 <Image src={PreNegotiated} alt="image label section" />
               </div>
-              <div>
+              <div className="contentDownImage">
                 <h2>Detailed Insights</h2>
                 <p>
                   See exact unit prices, numbers, floors, and square footage for
@@ -61,7 +61,7 @@ const WhyChooseTheGenuine = () => {
               <div className="imageSectiom">
                 <Image src={HassleFree} alt="image label section" />
               </div>
-              <div>
+              <div className="contentDownImage">
                 <h2>Stay Ahead</h2>
                 <p>
                   Make smarter, faster decisions with complete transparency in
@@ -72,7 +72,7 @@ const WhyChooseTheGenuine = () => {
           </div>
 
           <div className="fullImage">
-            <Image src={fixdPriceCity} alt="image label section" />
+            <Image src={whyChooseTheGenuine} alt="image label section" />
           </div>
         </div>
 

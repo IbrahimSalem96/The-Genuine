@@ -74,6 +74,9 @@
   width: 8.5333333333vw;
   height: auto;
 }
+.whyDubaiWhyNowAll .cardItems .contenCard.contenCardMarginBottom {
+  margin: 0 !important;
+}
 .whyDubaiWhyNowAll .cardItems .contenCard:hover {
   background: white;
   transition: all 0.3s ease-in-out;

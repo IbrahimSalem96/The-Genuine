@@ -3,7 +3,6 @@
 import {
   // ScrollSown,
   JoinUs,
-  BannerGenuineSection,
   Footer,
 } from "../components/index";
 
@@ -26,9 +25,9 @@ const NewHomePage = () => {
       <div className="NewHomePage">
         <JoinUs />
 
-        <ApprovedBy/>
-
         <OurPartners />
+
+        <ApprovedBy/>
 
         <YourSmartSolutionfor />
 
@@ -45,8 +44,6 @@ const NewHomePage = () => {
         <WhyDubaiWhyNow />
 
         <LaunchingSoon />
-
-        <BannerGenuineSection />
 
         <Footer />
       </div>

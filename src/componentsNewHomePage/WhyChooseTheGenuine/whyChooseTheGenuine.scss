@@ -1,7 +1,7 @@
 @use "../../css/functions" as c;
 
 .whyChooseTheGenuineNewHomePage {
-    padding: c.vw375(50) 0;
+    padding: c.vw375(0) 0 0;
 
     p.subTitle {
         font-family: Inter;
@@ -57,7 +57,7 @@
         margin-top: c.vw375(40);
         display: flex;
         flex-direction: column;
-        gap: c.vw375(26);
+        gap: c.vw375(40);
 
         .contentBox {
             width: c.vw375(325);
@@ -70,8 +70,29 @@
             cursor: pointer;
             margin: 0 auto;
 
+
             .imageSectiom {
-                display: none;
+                position: relative;
+                top: c.vw375(-50);
+                margin-bottom: c.vw375(-26);
+                width: c.vw375(58);
+                height: c.vw375(58);
+                border: 2px solid white;
+                border-radius: c.vw375(15);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: rgba(137, 69, 236, 1);
+                transition: all 0.3s ease-in-out;
+
+                img {
+                    width: c.vw375(20);
+                    height: auto;
+                }
+            }
+
+            .contentDownImage{
+                margin-top: c.vw375(-50);
             }
 
             h2 {
@@ -112,10 +133,12 @@
         .fullImage {
             width: auto;
             height: auto;
+            text-align: center;
             margin: c.vw375(26) auto 0;
 
             img {
-                width: 100%;
+                width: c.vw375(290);
+                height: auto;
             }
         }
     }
@@ -174,11 +197,14 @@
                     align-items: center;
                     gap: c.vw834(20);
                     margin: 0 auto;
+
                     .imageSectiom {
                         display: block;
                         width: c.vw834(68);
                         height: c.vw834(68);
                         padding: c.vw834(10);
+                        top: unset;
+                        margin-bottom: unset;
                         background: rgb(137, 69, 236);
                         border-radius: 15px;
                         transition: all 0.3s ease-in-out;
@@ -189,6 +215,11 @@
                             width: c.vw834(32);
                         }
                     }
+
+                    .contentDownImage{
+                        margin-top: unset;
+                    }
+                    
 
                     &:hover {
                         .imageSectiom {
@@ -288,16 +319,19 @@
                 .contentBox {
                     width: c.vw1920(720);
                     border-radius: c.vw1920(15);
-                    padding: c.vw1920(40) c.vw1920(20);
+                    padding: c.vw1920(26) c.vw1920(20);
                     margin: 0;
                     display: flex;
                     align-items: center;
                     gap: c.vw1920(20);
                     margin: 0;
+
                     .imageSectiom {
-                        display: block;
-                        width: c.vw1920(68);
-                        height: c.vw1920(68);
+                        // display: block;
+                        top: unset;
+                        margin-bottom: unset;
+                        width: c.vw1920(78);
+                        height: c.vw1920(74);
                         padding: c.vw1920(10);
                         background: rgb(137, 69, 236);
                         border-radius: 15px;
@@ -308,6 +342,9 @@
                         img {
                             width: c.vw1920(32);
                         }
+                    }
+                    .contentDownImage{
+                        margin-top: unset;
                     }
 
                     &:hover {
@@ -339,7 +376,8 @@
                 text-align: end;
 
                 img {
-                    width: 86%;
+                    width: 100%;
+                    height: c.vw1920(470);
                 }
             }
         }

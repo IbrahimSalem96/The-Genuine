@@ -34,7 +34,7 @@
   margin-top: 10.6666666667vw;
   display: flex;
   flex-direction: column;
-  gap: 3.2vw;
+  gap: 10.6666666667vw;
 }
 .trustedDevelopersAll .cardItems .contentBox {
   width: 100%;
@@ -48,7 +48,25 @@
   margin: 0 auto;
 }
 .trustedDevelopersAll .cardItems .contentBox .imageSectiom {
-  display: none;
+  position: relative;
+  top: -13.3333333333vw;
+  margin-bottom: -6.9333333333vw;
+  width: 15.4666666667vw;
+  height: 15.4666666667vw;
+  border: 2px solid white;
+  border-radius: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(137, 69, 236);
+  transition: all 0.3s ease-in-out;
+}
+.trustedDevelopersAll .cardItems .contentBox .imageSectiom img {
+  width: 7.4666666667vw;
+  height: auto;
+}
+.trustedDevelopersAll .cardItems .contentBox .contentDownImage {
+  margin-top: -10.6666666667vw;
 }
 .trustedDevelopersAll .cardItems .contentBox h2 {
   font-family: Inter;
@@ -86,6 +104,7 @@
   margin: 13.3333333333vw auto 0;
 }
 .trustedDevelopersAll .contentBoxAll .fullImage li {
+  list-style-type: none;
   font-family: Inter;
   font-size: 3.7333333333vw;
   font-weight: 500;
@@ -138,6 +157,8 @@
     margin: 0 auto;
   }
   .trustedDevelopersAll .contentBoxAll .cardItems .contentBox .imageSectiom {
+    top: unset;
+    margin-bottom: unset;
     display: block;
     width: 8.1534772182vw;
     height: 8.1534772182vw;
@@ -151,6 +172,9 @@
   }
   .trustedDevelopersAll .contentBoxAll .cardItems .contentBox .imageSectiom img {
     width: 3.8369304556vw;
+  }
+  .trustedDevelopersAll .contentBoxAll .cardItems .contentBox .contentDownImage {
+    margin-top: unset;
   }
   .trustedDevelopersAll .contentBoxAll .cardItems .contentBox:hover .imageSectiom {
     background: rgb(255, 0, 121);
@@ -229,6 +253,8 @@
     margin: 0;
   }
   .trustedDevelopersAll .contentBoxAll .cardItems .contentBox .imageSectiom {
+    top: unset;
+    margin-bottom: unset;
     display: block;
     width: 4.0625vw;
     height: 4.0625vw;
@@ -242,6 +268,9 @@
   }
   .trustedDevelopersAll .contentBoxAll .cardItems .contentBox .imageSectiom img {
     width: 2.1875vw;
+  }
+  .trustedDevelopersAll .contentBoxAll .cardItems .contentBox .contentDownImage {
+    margin-top: unset;
   }
   .trustedDevelopersAll .contentBoxAll .cardItems .contentBox:hover .imageSectiom {
     background: rgb(255, 0, 121);
@@ -271,5 +300,6 @@
   }
   .trustedDevelopersAll .contentBoxAll .fullImage img {
     width: 100%;
+    height: 24.4791666667vw;
   }
 }

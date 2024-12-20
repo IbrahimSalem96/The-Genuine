@@ -14,7 +14,7 @@
 
     p{
         font-family: Poppins;
-        font-size: c.vw375(18);
+        font-size: c.vw375(16);
         font-weight: 500;
         line-height: c.vw375(33);
         // color: rgba(76, 41, 181, 1);
@@ -23,7 +23,7 @@
     }
 
     img{
-        width: c.vw375(50);
+        width: c.vw375(30);
         height: auto;
         cursor: pointer;
     }
@@ -39,7 +39,7 @@
         }
     
         img{
-            width: c.vw834(71);
+            width: c.vw834(40);
         }
     }
 }
@@ -54,7 +54,7 @@
         }
     
         img{
-            width: c.vw1920(60);
+            width: c.vw1920(40);
         }
     }
 }

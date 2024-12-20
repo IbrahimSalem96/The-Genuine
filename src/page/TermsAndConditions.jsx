@@ -1,6 +1,7 @@
 // Image
 import "../css/pages/termsAndConditions.css";
 import { Header, Footer } from "../components/index";
+import { Link } from "react-router-dom";
 
 const TermsAndConditions = () => {
   return (
@@ -173,8 +174,15 @@ const TermsAndConditions = () => {
             these terms shall be subject to the exclusive jurisdiction of Dubai
             courts.
           </p>
+
+          <Link to={"/joiningForm"} className="getGackToTheRegistrationPage">
+            Get back to the registration page
+          </Link>
         </div>
       </div>
+
+
+
       <Footer />
     </>
   );

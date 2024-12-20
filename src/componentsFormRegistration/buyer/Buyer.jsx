@@ -68,9 +68,6 @@ const Buyer = () => {
   //Send Data
   const sendDataAll = async () => {
 
-
-    // console.log(whatsAppGroup)
-    
     try {
       const requestData = {
         salutation: salutation.value,

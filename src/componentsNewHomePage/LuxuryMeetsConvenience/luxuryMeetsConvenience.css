@@ -64,15 +64,17 @@
   padding: 10.6666666667vw 0;
 }
 .LuxuryMeetsConvenience .cardItem .sizeBox .contentBox:nth-child(2), .LuxuryMeetsConvenience .cardItem .sizeBox .contentBox:nth-child(3) {
-  padding: 0 0 10.6666666667vw;
+  padding: 5.3333333333vw 0 5.3333333333vw;
 }
 .LuxuryMeetsConvenience .cardItem .sizeBox .contentBox:nth-child(1) {
   border-top-left-radius: 6.9333333333vw;
   border-top-right-radius: 6.9333333333vw;
+  padding: 10.6666666667vw 0 5.3333333333vw;
 }
 .LuxuryMeetsConvenience .cardItem .sizeBox .contentBox:nth-child(4) {
   border-bottom-left-radius: 6.9333333333vw;
   border-bottom-right-radius: 6.9333333333vw;
+  padding: 5.3333333333vw 0 10.6666666667vw;
 }
 .LuxuryMeetsConvenience .cardItem .sizeBox .contentBox img {
   width: 12.8vw;
@@ -110,6 +112,9 @@
 .LuxuryMeetsConvenience .cardItem .sizeBox .contentBox .imageHover img {
   width: 8.5333333333vw;
   height: auto;
+}
+.LuxuryMeetsConvenience .cardItem .sizeBox .contentBox:hover {
+  background-color: rgb(255, 0, 121);
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -157,14 +162,17 @@
   }
   .LuxuryMeetsConvenience .cardItem .sizeBox .contentBox:nth-child(2), .LuxuryMeetsConvenience .cardItem .sizeBox .contentBox:nth-child(3) {
     padding: inherit;
+    padding: 2.3980815348vw 0 2.3980815348vw;
   }
   .LuxuryMeetsConvenience .cardItem .sizeBox .contentBox:nth-child(1) {
     border-top-left-radius: 3.1175059952vw;
     border-top-right-radius: 3.1175059952vw;
+    padding: 4.7961630695vw 0 2.3980815348vw;
   }
   .LuxuryMeetsConvenience .cardItem .sizeBox .contentBox:nth-child(4) {
     border-bottom-left-radius: 3.1175059952vw;
     border-bottom-right-radius: 3.1175059952vw;
+    padding: 2.3980815348vw 0 4.7961630695vw;
   }
   .LuxuryMeetsConvenience .cardItem .sizeBox .contentBox img {
     width: 8.1534772182vw;
@@ -261,11 +269,13 @@
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
     border-bottom-left-radius: 2.0833333333vw;
+    padding: 2.0833333333vw 0;
   }
   .LuxuryMeetsConvenience .cardItem .sizeBox .contentBox:nth-child(4) {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     border-bottom-right-radius: 2.0833333333vw;
+    padding: 2.0833333333vw 0;
   }
   .LuxuryMeetsConvenience .cardItem .sizeBox .contentBox .imageHover {
     width: 3.5416666667vw;

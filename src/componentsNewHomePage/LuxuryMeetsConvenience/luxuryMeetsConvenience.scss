@@ -74,17 +74,19 @@
 
                 &:nth-child(2),
                 &:nth-child(3) {
-                    padding: 0 0 c.vw375(40);
+                    padding: c.vw375(20) 0 c.vw375(20);
                 }
 
                 &:nth-child(1) {
                     border-top-left-radius: c.vw375(26);
                     border-top-right-radius: c.vw375(26);
+                    padding: c.vw375(40) 0 c.vw375(20);
                 }
 
                 &:nth-child(4) {
                     border-bottom-left-radius: c.vw375(26);
                     border-bottom-right-radius: c.vw375(26);
+                    padding: c.vw375(20) 0 c.vw375(40);
                 }
 
                 img {
@@ -130,9 +132,9 @@
                     }
                 }
 
-                // &:hover {
-                //     background-color: rgba(255, 0, 121, 1);
-                // }
+                &:hover {
+                    background-color: rgba(255, 0, 121, 1);
+                }
             }
         }
     }
@@ -188,16 +190,19 @@
                     &:nth-child(2),
                     &:nth-child(3) {
                         padding: inherit;
+                        padding: c.vw834(20) 0 c.vw834(20);
                     }
 
                     &:nth-child(1) {
                         border-top-left-radius: c.vw834(26);
                         border-top-right-radius: c.vw834(26);
+                        padding: c.vw834(40) 0 c.vw834(20);
                     }
 
                     &:nth-child(4) {
                         border-bottom-left-radius: c.vw834(26);
                         border-bottom-right-radius: c.vw834(26);
+                        padding: c.vw834(20) 0 c.vw834(40);
                     }
 
                     img {
@@ -315,12 +320,14 @@
                         border-top-left-radius: inherit;
                         border-top-right-radius: inherit;
                         border-bottom-left-radius: c.vw1920(40);
+                        padding: c.vw1920(40) 0;
                     }
 
                     &:nth-child(4) {
                         border-bottom-left-radius: 0;
                         border-bottom-right-radius: 0;
                         border-bottom-right-radius: c.vw1920(40);
+                        padding: c.vw1920(40) 0;
                     }
 
                     .imageHover {
